@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Table and forms</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ 
+  <table>
+    <tr>
+      <td colspan="4" class="header">Invoice Tabular data</td>
+    </tr>
+    <tr class="invoice-title">
+      <td colspan="3">Invoice #123456789</td>
+      <td>14 January 2023</td>
+    </tr>
+    <tr>
+      <td class="green-cell" colspan="2">
+        Pay to:<br>
+        <strong>Acme Billing Co.</strong><br>
+        123 Main St.<br>
+        Cityville, NA 12345
+      </td>
+      <td class="green-cell" colspan="2">
+        Customer:<br>
+        <strong>John Smith</strong><br>
+        321 Willow Way<br>
+        Southeast Northwestershire, MA 54321
+      </td>
+    </tr>
+    <tr class="invoice-title">
+      <th>Name / Description</th>
+      <th>Qty.</th>
+      <th>@</th>
+      <th>Cost</th>
+    </tr>
+    <tr class="highlight">
+      <td>Paperclips</td>
+      <td>1000</td>
+      <td>0.01</td>
+      <td>10.00</td>
+    </tr>
+    <tr class="highlight">
+      <td>Staples (box)</td>
+      <td>100</td>
+      <td>1.00</td>
+      <td>100.00</td>
+    </tr>
+    <tr class="highlight">
+      <td>Bond Paper (box)</td>
+      <td>100</td>
+      <td>1.00</td>
+      <td>100.00</td>
+    </tr>
+    <tr>
+      <td colspan="3"><strong>Subtotal</strong></td>
+      <td>110.00</td>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Tax</strong></td>
+      <td>8%</td>
+      <td>8.80</td>
+    </tr>
+    <tr class="footer">
+      <td colspan="3">Grand Total</td>
+      <td>$118.80</td>
+    </tr>
+  </table>
+
+  <form>
+    <table class="form-table">
+      <tr>
+        <th>Name</th>
+        <th>Value</th>
+      </tr>
+      <tr>
+        <td>Name:</td>
+        <td><input type="text" placeholder="Type your name here"></td>
+      </tr>
+      <tr>
+        <td>Sex:</td>
+        <td>
+          <input type="radio" name="sex"> Male<br>
+          <input type="radio" name="sex"> Female<br>
+          <input type="radio" name="sex"> Other
+        </td>
+      </tr>
+      <tr>
+        <td>Eye Color</td>
+        <td>
+          <select>
+            <option>black</option>
+            <option>brown</option>
+            <option>blue</option>
+            <option>green</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Check all the Applies</td>
+        <td>
+          <input type="checkbox"> Over 6ft. Tall<br>
+          <input type="checkbox"> Over 200 pounds<br>
+          <input type="checkbox"> Less than 200 pounds
+        </td>
+      </tr>
+      <tr>
+        <td>Describe your athletic ability</td>
+        <td><textarea rows="4"></textarea></td>
+      </tr>
+      <tr>
+        <td colspan="2" style="text-align:center;">
+          <button type="submit" class="submit-button">Enter my Information</button>
+        </td>
+      </tr>
+    </table>
+  </form>
+
+  <p>
+    <a href="http://127.0.0.1:5500/index.html?" target="_blank">
+      Click here to view my Table and Forms in a new tab
+    </a>
+  </p>
+  <img src="Images.png" alt="" width="900">
+</body>
+</html>

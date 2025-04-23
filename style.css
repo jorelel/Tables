@@ -33,8 +33,7 @@ th, td {
     background-color: #a4f2be;
     font-weight: bold;
 }
-
-tbody  tr {
+.item {
     background-color: #ecebd8;  
 }
 
@@ -72,7 +71,6 @@ input[type="text"], textarea, select {
     width: 100%;
     
 }
-
 
 
 

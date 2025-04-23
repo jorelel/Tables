@@ -1,77 +1,78 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-  }
+}
 
-  table {
+table {
     border-collapse: collapse;
     width: 100%;
-    margin-bottom: 30px;
-  }
+    margin-bottom: 10px;
+}
 
-  th, td {
+th, td {
     border: 2px solid #3d3b6d;
     padding: 8px;
     text-align: left;
-  }
+}
 
-  .header {
+.invoice-header {
     background-color: #c5e3ec;
     font-size: 20px;
-    font-weight: bold;
     text-align: center;
-  }
+    font-weight: bold;
+    
+}
 
-  .invoice-title {
+.invoice-info {
     background-color: #3d3b6d;
     color: white;
     font-weight: bold;
-  }
+}
 
-  .green-cell {
+.payment-dts {
     background-color: #a4f2be;
     font-weight: bold;
-  }
+}
 
-  .highlight {
-    background-color: #ecebd8;
-  }
+tbody  tr {
+    background-color: #ecebd8;  
+}
 
-  .footer {
+tfoot {
     background-color: #3d3b6d;
     color: white;
     font-weight: bold;
-  }
+}
 
-  .form-table {
+.user-form {
     border: 2px solid #3d3b6d;
-  }
+}
 
-  .form-table th {
+.user-form th {
     background-color: #c5e3ec;
     font-weight: bold;
     text-align: center;
-  }
+}
 
-  .form-table td {
+.user-form td {
     padding: 10px;
-  }
+}
 
-  input[type="text"], textarea, select {
+input[type="text"], textarea, select {
     width: 80%;
-    padding: 5px;
-  }
+    padding: 2px;
+}
 
-  .submit-button {
+.form-submit-button {
     background-color: #c5e3ec;
-    color: #000;
+    color: #000000;
     padding: 10px;
     border: none;
     font-size: 16px;
     width: 100%;
-    cursor: pointer;
-  }
+    
+}
 
-  .submit-button:hover {
-    background-color: #a9dbe3;
-  }
+
+
+
